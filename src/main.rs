@@ -22,7 +22,7 @@ fn main() {
             c.latest_version().version(),
             &src,
         ).unwrap();
-        reg.get(&[pkg.clone()][..]).get(&pkg).unwrap();
+        reg.get(&[pkg.clone()][..]).get(&pkg).map_err(|err| { println!("{:?}", err); });
         println!("got {}", c.name());
     }
 }
