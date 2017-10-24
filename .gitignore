@@ -1,5 +1,7 @@
 .idea
 
+/crates.io/
+
 /target/
 **/*.rs.bk
 Cargo.lock
