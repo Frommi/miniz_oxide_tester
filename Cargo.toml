@@ -1,0 +1,8 @@
+[package]
+name = "miniz_oxide_tester"
+version = "0.1.0"
+authors = ["frommi"]
+
+[dependencies]
+cargo = { path = "cargo", version = "0.22" }
+crates-index = "0.10.0"
